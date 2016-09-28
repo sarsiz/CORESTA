@@ -1,0 +1,862 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #151515;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3, #LayoutGrid1 .col-4
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1
+{
+}
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3, #LayoutGrid1 .col-4
+{
+   float: left;
+}
+#LayoutGrid1 .col-1
+{
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1 .col-2
+{
+   width: 41.66666667%;
+   text-align: center;
+}
+#LayoutGrid1 .col-3
+{
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutGrid1 .col-4
+{
+   width: 16.66666667%;
+   text-align: left;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3, #LayoutGrid1 .col-4
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 15px 0px 15px 0px;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 16px;
+   margin: 0;
+   text-align: left;
+}
+#Heading1 a
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 6px 0px 0px 90px;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 16px 0px 0px 0px;
+   text-align: right;
+}
+#wb_Text2 div
+{
+   text-align: right;
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid2
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 100px 15px 400px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 .col-1, #LayoutGrid2 .col-2
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2
+{
+}
+#LayoutGrid2 .col-1, #LayoutGrid2 .col-2
+{
+   float: left;
+}
+#LayoutGrid2 .col-1
+{
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid2 .col-2
+{
+   width: 75%;
+   text-align: left;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 .col-1, #LayoutGrid2 .col-2
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Form1
+{
+   background-color: transparent;
+   background-image: url(images/teacher_enter_student_detail_Form1_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   border: 1px #CCCCCC solid;
+}
+#Label1
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox1
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#8A2BE2;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label2
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox2
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#8A2BE2;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox2:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label3
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox3
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox3:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label4
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox4
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox4:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label5
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox5
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox5:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Editbox6
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox6:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label7
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox7
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox7:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label8
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Combobox1
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#Combobox1:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label9
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Combobox2
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#Combobox2:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label10
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Combobox3
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#Combobox3:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label11
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Combobox4
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#Combobox4:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Button1
+{
+   border: 1px #8A2BE2 solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #8A2BE2;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 17px;
+}
+#Button2
+{
+   border: 1px #8A2BE2 solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #8A2BE2;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 17px;
+}
+#Label6
+{
+   border: 0px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#wb_CssMenu2
+{
+   border: 0px #C0C0C0 solid;
+   background-color: #FFFFFF;
+   margin: 0px 20px 0px 0px;
+}
+#wb_CssMenu2 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 201px;
+}
+#wb_CssMenu2 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 20px 20px 20px;
+   width: 201px;
+}
+#wb_CssMenu2 a
+{
+   display: block;
+   color: #8A2BE2;
+   border: 1px #8A2BE2 solid;
+   background-color: #FFFFFF;
+   background-image: none;
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+   text-decoration: none;
+   width: 189px;
+   height: 26px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 26px;
+   text-align: center;
+}
+#wb_CssMenu2 li:hover a, #wb_CssMenu2 a:hover, #wb_CssMenu2 .active
+{
+   color: #FFFFFF;
+   background-color: #8A2BE2;
+   background-image: none;
+   border: 1px #FFFFFF solid;
+}
+#wb_CssMenu2 .firstmain a
+{
+   margin-top: 20px;
+}
+#wb_CssMenu2 li.lastmain
+{
+   padding-bottom: 20px;
+}
+#wb_CssMenu2 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#wb_PanelMenu1
+{
+   margin: 8px 0px 0px 0px;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover, #PanelMenu1_markup li .active
+{
+   padding: 10px 10px 10px 10px;
+   border-width: 0;
+   border-bottom-width: 1px;
+   border-radius: 0;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: absolute;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 250px;
+   z-index: 9999;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   color: #FFFFFF;
+   border: 1px #8A2BE2 solid;
+   background-color: #8A2BE2;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 17px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a:hover, #PanelMenu1_markup li a:hover, #PanelMenu1_markup li .active
+{
+   color: #8A2BE2;
+   background-color: #FFFFFF;
+   border: 1px #000000 solid;
+}
+#PanelMenu1_panel
+{
+   background-color: #8A2BE2;
+   overflow-y: auto;
+}
+#PanelMenu1
+{
+   line-height: 28px;
+   width: 88px;
+   height: 28px;
+   position: absolute;
+}
+#PanelMenu1_markup ul li i
+{
+   font-size: 17px;
+   padding: 0px 10px 0px 0px;
+   vertical-align: middle;
+   width: 17px;
+}
+#PanelMenu1_markup span
+{
+   display: inline-block;
+   height: 17px;
+   vertical-align: middle;
+   line-height: 17px;
+}

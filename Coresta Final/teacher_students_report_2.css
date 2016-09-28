@@ -1,0 +1,336 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #151515;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3, #LayoutGrid1 .col-4
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1
+{
+}
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3, #LayoutGrid1 .col-4
+{
+   float: left;
+}
+#LayoutGrid1 .col-1
+{
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1 .col-2
+{
+   width: 41.66666667%;
+   text-align: center;
+}
+#LayoutGrid1 .col-3
+{
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutGrid1 .col-4
+{
+   width: 16.66666667%;
+   text-align: left;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3, #LayoutGrid1 .col-4
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 15px 0px 15px 0px;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 16px;
+   margin: 0;
+   text-align: left;
+}
+#Heading1 a
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 6px 0px 0px 90px;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 16px 0px 0px 0px;
+   text-align: right;
+}
+#wb_Text2 div
+{
+   text-align: right;
+}
+#wb_Heading3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading3
+{
+   color: #8A2BE2;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   margin: 0;
+   text-align: center;
+}
+#Heading3:hover
+{
+   text-shadow: 2px 2px 2px #234267;
+   -webkit-transition: text-shadow 500ms ease-in-out 0ms;
+   -moz-transition: text-shadow 500ms ease-in-out 0ms;
+   transition: text-shadow 500ms ease-in-out 0ms;
+}
+#Table1
+{
+   border: 0px #C0C0C0 solid;
+   background-color: transparent;
+   background-image: url(images/teacher_students_report_2_Table1_bkgrnd.png);
+   background-repeat: repeat-y;
+   background-position: left top;
+   border-spacing: 0px;
+}
+#Table1 td
+{
+   padding: 15px 15px 15px 15px;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: top;
+   width: 113px;
+   height: 40px;
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 16px;
+}
+#Table1 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: top;
+   width: 113px;
+   height: 40px;
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 18px;
+}
+#Table1 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: top;
+   width: 113px;
+   height: 40px;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: top;
+   height: 40px;
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 18px;
+}
+#Table1 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   width: 113px;
+   height: 21px;
+}
+#Table1 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   height: 21px;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#wb_PanelMenu1
+{
+   margin: 8px 0px 0px 0px;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover, #PanelMenu1_markup li .active
+{
+   padding: 10px 10px 10px 10px;
+   border-width: 0;
+   border-bottom-width: 1px;
+   border-radius: 0;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: absolute;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 250px;
+   z-index: 9999;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   color: #FFFFFF;
+   border: 1px #8A2BE2 solid;
+   background-color: #8A2BE2;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 17px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a:hover, #PanelMenu1_markup li a:hover, #PanelMenu1_markup li .active
+{
+   color: #8A2BE2;
+   background-color: #FFFFFF;
+   border: 1px #000000 solid;
+}
+#PanelMenu1_panel
+{
+   background-color: #8A2BE2;
+   overflow-y: auto;
+}
+#PanelMenu1
+{
+   line-height: 28px;
+   width: 88px;
+   height: 28px;
+   position: absolute;
+}
+#PanelMenu1_markup ul li i
+{
+   font-size: 17px;
+   padding: 0px 10px 0px 0px;
+   vertical-align: middle;
+   width: 17px;
+}
+#PanelMenu1_markup span
+{
+   display: inline-block;
+   height: 17px;
+   vertical-align: middle;
+   line-height: 17px;
+}
