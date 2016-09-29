@@ -18,10 +18,15 @@ Database MySQL
   
   Columns for : 
   1.admin -> [a_username, a_password, a_email]
+  
   2.attendance -> [sem_id, s_enrollment_number, s_name, teacher_name, subject_name, lecture_number, date(Y-M-D), status]
+  
   3.semester -> [sem_id, department, subject_id, sunject_name, section, shift, semester]
+  
   4.student -> [s_enrollment_number, sem_id, s_name, s_username, s_password, s_email, s_phone_number, date(Y-M-D), s_dept, s_section, s_shift, s_semester]
+  
   5.subject -> [subject_id, subject_name]
+  
   6.teacher_data -> [t_no, t_name, t_username, t_password, t_email, t_department, t_shift]  t_no is basically the teacher id(Unique)
   
  
