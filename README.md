@@ -16,7 +16,8 @@ Database MySQL
   5.subject
   6.teacher_data
   
-  Columns for : 
+  Columns for :
+  
   1.admin -> [a_username, a_password, a_email]
   
   2.attendance -> [sem_id, s_enrollment_number, s_name, teacher_name, subject_name, lecture_number, date(Y-M-D), status]
@@ -30,7 +31,8 @@ Database MySQL
   6.teacher_data -> [t_no, t_name, t_username, t_password, t_email, t_department, t_shift]  t_no is basically the teacher id(Unique)
   
  
- enter student details page background color is black because of a small code mistake. Else everything is working. 
+ 
+ enter student details page background color is black after signin as teacher because of a small code mistake(can be easily rectified). Else everything is working. 
  
  This is my first project and It was really very intresting to work on it. I will keep improving this project. Few features I have not yet added(ADD ons : Automatically sending email to the defaulters, sms notification, Improved UI, Student Sign in and more functionalities.)
  Any comments or suggestions are welcome :D
