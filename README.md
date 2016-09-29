@@ -9,12 +9,19 @@ I used tomcat 7 to run this project. Copy the folder Coresta Final in the webapp
 
 Database MySQL
 6 tables created.
+
   1.admin
+  
   2.attendance
+  
   3.semester
+  
   4.student
+  
   5.subject
+  
   6.teacher_data
+  
   
   Columns for :
   
