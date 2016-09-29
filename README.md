@@ -42,4 +42,5 @@ Database MySQL
  enter student details page background color is black after signin as teacher because of a small code mistake(can be easily rectified). Else everything is working. 
  
  This is my first project and It was really very intresting to work on it. I will keep improving this project. Few features I have not yet added(ADD ons : Automatically sending email to the defaulters, sms notification, Improved UI, Student Sign in and more functionalities.)
+ 
  Any comments or suggestions are welcome :D
