@@ -37,6 +37,8 @@ Database MySQL
   
   6.teacher_data -> [t_no, t_name, t_username, t_password, t_email, t_department, t_shift]  t_no is basically the teacher id(Unique)
   
+  
+  I used a tool Web Builder for designing the pages and then I modified the pages manually (by coding myself) according to my needs. Linking Front-end and the Back-end was very tough initially as I have never done that before. And now I do it quite easily.
  
  
  enter student details page background color is black after signin as teacher because of a small code mistake(can be easily rectified). Else everything is working. 
