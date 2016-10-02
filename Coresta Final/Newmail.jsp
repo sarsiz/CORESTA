@@ -3,7 +3,7 @@
 	errorPage=""%>
 
 <%
-	String host = "smtp.gmail.com", user = "enter your emailid", pass = "enter your password";
+	String host = "smtp.gmail.com", user = "enter your email id", pass = "enter your password";
 
 	String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
 	//String email = (session.getAttribute("email")).toString();
@@ -11,7 +11,7 @@
 	String from = user; //Email id of the recipient
 	String subject = "Do NOT Share Your Password";
 	String messageText = "Your password is -> " + (session.getAttribute("password")).toString();
-	out.print("<script>alert('Your password has been emailed to your registered email id'); location='admin_panel.jsp';</script>");
+	out.print("<script>alert('Your password has been emailed to your registered email id'); location='home_page.jsp#signin';</script>");
 	boolean sessionDebug = true;
 	Properties props = System.getProperties();
 	props.put("mail.host", host);
@@ -39,7 +39,7 @@
 		transport.sendMessage(msg, msg.getAllRecipients());
 		//WasEmailSent = true; // assume it was sent
 		transport.close();
-		response.sendRedirect("home_page.jsp");
+		response.sendRedirect("home_page.jsp#signin");
 	} catch (Exception err) {
 		out.print(err);
 	}
