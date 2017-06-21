@@ -1,5 +1,5 @@
 
-###My first Team project
+### My first Team project
 Team Members : Ankit and Sarsiz
 
 (ADD ons : Automatically sending email to the defaulters, sms notification, Improved UI, Student Sign in and more functionalities.)
@@ -22,9 +22,9 @@ Open Manager App, then Click on the Coresta Final.
 ####The project won't run if you haven't specified the path correctly for jdk or servlet-api.
 
 
-###BACKEND
+### BACKEND
   MySQL
 
   
-#####Front end
+##### Front end
  HTML, CSS, JQuery, JS, AJAX
