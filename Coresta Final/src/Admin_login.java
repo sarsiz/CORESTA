@@ -35,7 +35,7 @@ public class Admin_login extends HttpServlet {
 		
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			  Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/msit","root","1212");
+			  Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/msit",username,password);
 			 
 			  Statement st = con.createStatement();
 			  
